@@ -2,13 +2,12 @@ import { useState } from 'react'
 import Pageheader from './components/Pageheader'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-    <Pageheader title={"Vito Carnovale"}
-                buttons = {["home", "Porfolio"]}/>
-    </>
+    <div className='flex-auto items-center'>
+      <Pageheader title={"VITO CARNOVALE"}
+        buttons={["ABOUT", "EXPERIENCE", "PORTFOLIO", "EDUCATION"]} />
+    </div>
   )
 }
 
