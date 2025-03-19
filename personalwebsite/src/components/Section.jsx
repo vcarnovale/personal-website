@@ -11,7 +11,7 @@ export default function Section ({ data, colour }) {
 
     // Gotta use ``` not ''' top left of keybaord tick to allow variables inside of a string
     return (
-        <div className={`${colours[colour]} max-w-full flex flex-col space-y-0.5 pt-[100px] xl:pl-[20%] xl:pr-[20%] not-xl:pr-[5px] not-xl:pl-[5px] py-[5%] min-h-[130vh] transition-all`}>
+        <div className={`${colours[colour]} max-w-full flex flex-col space-y-0.5 pt-[100px] xl:pl-[20%] xl:pr-[20%] not-xl:pr-[5px] not-xl:pl-[5px] py-[5%] min-h-[80vh] transition-all`}>
             {data}
         </div>
     )

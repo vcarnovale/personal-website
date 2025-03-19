@@ -19,6 +19,14 @@ export function Smallcard({ img, title, description, optional }) {
 }
 
 
-export function Largecard() {
-
+export function Largecard({ img, title, description }) {
+    return (
+        <button className="min-w-[55%] max-w-full gap-5 mb-5 flex-col place-self-center h-[400px] min-h-[20%] cursor-pointer hover:bg-[#f3f5fd] rounded-md border-2">
+            <img className="h-[65%] w-[100%] "src={`${img}`} />
+            <div className="flex flex-col h-[35%] w-[100%] pt-3">
+                <h1 className="text-left place-self-center w-[95%]">{title}</h1>
+                <p1 className="w-[95%] h-[70%] text-left text-wrap place-self-center">{description}</p1>
+            </div>
+        </button>
+    )
 }
