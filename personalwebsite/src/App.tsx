@@ -32,11 +32,13 @@ function App() {
         colour="white" />
       
       <Section idname="experience" data=<> <h1 className='pb-[50px] font-montserrat font-bold text-2xl'>Work Experience</h1>
-      <Smallcard title="House" img="../assets/react.svg" description="fix make paragraph wrap dddddd dddddddd ddddd dddddddd ddd ddddd ddddddd ddddddd ddddddddd dddd ddddd dddddd ddddd" optional="2022 to fgeb 239492030" /><Smallcard title="House" img="../assets/react.svg" description="fix make paragraph wrap dddddd dddddddd ddddd dddddddd ddd ddddd ddddddd ddddddd ddddddddd dddd ddddd dddddd ddddd" optional="2022 to fgeb 239492030" /></>
+      <Smallcard title="House" subtitle='' img="../assets/react.svg" description="fix make paragraph wrap dddddd dddddddd ddddd dddddddd ddd ddddd ddddddd ddddddd ddddddddd dddd ddddd dddddd ddddd" optional="2022 to fgeb 239492030" />
+      <Smallcard title="House" subtitle='' img="../assets/react.svg" description="fix make paragraph wrap dddddd dddddddd ddddd dddddddd ddd ddddd ddddddd ddddddd ddddddddd dddd ddddd dddddd ddddd" optional="2022 to fgeb 239492030" /></>
         colour="gray"/>
 
       <Section idname="portfolio" data =<> <h1 className='pb-[50px] font-montserrat font-bold text-2xl'>Projects</h1>
-      <Largecard title="project" img="/assets/react.svg" description="Funny project about being a project for the projects sake we have fun with it frfr"/><Largecard title="project" img="../assets/react.svg" description="Funny project about being a project for the projects sake we have fun with it frfr"/></> colour="white"/>
+      <Largecard title="project" img="/assets/react.svg" description="Funny project about being a project for the projects sake we have fun with it frfr"/>
+      <Largecard title="project" img="../assets/react.svg" description="Funny project about being a project for the projects sake we have fun with it frfr"/></> colour="white"/>
 
       <Section idname="education" data=<>
         <h1 className='font-montserrat text-2xl pb-[20px]'>Education</h1>
