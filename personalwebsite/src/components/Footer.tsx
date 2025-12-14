@@ -7,7 +7,7 @@ type PageFooterProps = {
 export default function PageFooter({ information }: PageFooterProps) {
     return (
 
-        <div className="bg-black w-full p-4 flex items-center">
+        <div className="bg-gray-900 w-full p-4 flex items-center">
 
             <p className='text-white whitespace-nowrap text-center'>{information}</p>
             <div className="w-full  h-auto py-8 flex items-center justify-end align-bottom gap-4 flex-wrap flex-1">

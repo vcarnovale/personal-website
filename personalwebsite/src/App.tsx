@@ -13,8 +13,8 @@ function App() {
       {/* Header */}
       <div className='font-montserrat'>
         <Pageheader title={"VITO CARNOVALE"}
-           buttons={["ABOUT", "EXPERIENCE", "PORTFOLIO", "EDUCATION"]}
-           href={["#about", "#experience", "#portfolio", "#education"]}
+           buttons={["EXPERIENCE", "PORTFOLIO", "EDUCATION"]}
+           href={["#experience", "#portfolio", "#education"]}
            />
       </div>
 
@@ -71,7 +71,7 @@ function App() {
         <p>Bachelor of Science, Computer Science @ Toronto Metropolitan University</p>
         <p>Sep. 2022 - Jun. 2027 (Expected) </p>
         </div>
-        <h1 className='pt-[30px] pb-[10px] text-xl font-bold'>Relavant Coursework</h1>
+        <h1 className='pt-[30px] pb-[10px] text-xl font-bold'>Technical Coursework</h1>
         <div className='flex-col text-lg'>
           <p>Compiler and Interpreters • CPS710</p>
           <p>Operating Systems • CPS590</p>

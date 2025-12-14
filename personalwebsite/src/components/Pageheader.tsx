@@ -40,13 +40,13 @@ function ShowButtons({ menubuttons, menuhref }: ShowButtonsProps) {
 type PageheaderProps = {
     title: string;
     href?: string[];
-    buttons: string[];
+    buttons?: string[];
 }
 export default function Pageheader({ title, href, buttons }: PageheaderProps) {
     const [open, setOpen] = useState<boolean>(false);
     return (
 
-        <div className="bg-black max-w-full w-full mx-auto p-4 flex justify-between items-center sticky">
+        <div className=" max-w-full w-full mx-auto p-4 flex justify-between items-center border-b-2 border-gray-100 sticky bg-gray-900">
             <button className="text-xl pl-5 font-bold font text-white">{title}</button>
             <div>
                 {/*We set the button to handle on click if its clicked it opens up our hamburger menu*/}

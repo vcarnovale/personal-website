@@ -15,9 +15,9 @@ export default function Section ({ data, colour, idname }:SectionProps) {
 
     };
 
-    // Gotta use ``` not ''' top left of keybaord tick to allow variables inside of a string
+    // Gotta use ``` not ''' top left of keybaord tick to allow variables inside of a string#f5f7ff
     return (
-        <div className={`${colours[colour]} max-w-full flex flex-col space-y-0.5 pt-[100px] xl:pl-[25%] xl:pr-[25%] not-xl:pr-[5px] not-xl:pl-[5px] pb-[3%] min-h-[30vh] transition-all`} id={idname}>
+        <div className={`${colours[colour]} max-w-full flex flex-col space-y-0.5 pt-[100px] xl:pl-[28%] xl:pr-[28%] not-xl:pr-[5px] not-xl:pl-[5px] pb-[3%] min-h-[30vh] transition-all`} id={idname}>
             {data}
         </div>
     )
