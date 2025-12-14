@@ -16,7 +16,7 @@ export default function Section ({ data, colour, idname }:SectionProps) {
 
     // Gotta use ``` not ''' top left of keybaord tick to allow variables inside of a string
     return (
-        <div className={`${colours[colour]} max-w-full flex flex-col space-y-0.5 pt-[100px] xl:pl-[20%] xl:pr-[20%] not-xl:pr-[5px] not-xl:pl-[5px] py-[5%] min-h-[30vh] transition-all`} id={idname}>
+        <div className={`${colours[colour]} max-w-full flex flex-col space-y-0.5 pt-[100px] xl:pl-[20%] xl:pr-[20%] not-xl:pr-[5px] not-xl:pl-[5px] pb-[3%] min-h-[30vh] transition-all`} id={idname}>
             {data}
         </div>
     )
