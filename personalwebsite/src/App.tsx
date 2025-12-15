@@ -22,9 +22,10 @@ function App() {
      {/* About */}
       <Section idname='about' data=<>
       <h1 className='font-montserrat text-2xl pb-[20px]'>About</h1>
-      <p >I am currently in my 4th year of Computer Science at Toronto Metropolitan University. 
-        I'm generally interested in distributed systems, compilers, devops, containerization, and computer security. 
-        I'm currently working on a mix of docker container networks and application, learning more about computer architecture and paralleism, and creating functions for my discord bots.
+      <p>
+        I am currently in my 4th year of Computer Science at Toronto Metropolitan University. 
+        My interests are in distributed systems, compilers, devops, containerization, and computer security. 
+        I am currently working on a mix of docker container networks and application, learning more about computer architecture and paralleism, and creating functions for my discord bots.
       </p>
 
       <div className="pt-[40px] w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
