@@ -7,7 +7,7 @@ type DropmenProps = {
 }
 export function Dropmen({ dropbuttons, drophref }:DropmenProps) {
     return (
-        <div className="xl:hidden absolute bg-black left-0 top-15 w-full">
+        <div className="xl:hidden absolute bg-gray-900 left-0 top-15 w-full">
             <nav className="flex flex-col items-center space-y-3" aria-label="mobile">
                 {dropbuttons.map((dbutton, index) => {
                     return <a key={dbutton} href={drophref?.[index]} className="cursor-pointer text-white w-full text-center hover:opacity-90">{dbutton}</a>
